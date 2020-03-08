@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Bubbler+One|Bungee+Outline|Geostar|Jacques+Francois+Shadow|Kumar+One+Outline|Libre+Caslon+Display|Londrina+Sketch|Monoton|Montserrat+Subrayada|Rhodium+Libre|Saira+Stencil+One&display=swap")
+
 body{
   background-color:#ddd;
 }
@@ -100,15 +102,78 @@ nav ul li:hover{
 
 
 
+#clear{
+  clear: both;
+}
+
 
 
 #content{
   height: 500px;
+  /* /////////////////////// */
   background-color: #bbb;
   overflow: hidden;
-  /* /////////////////////// */
 
 }
+#about{
+  margin-top: 400px;
+}
+#about #WE{
+  position: absolute;
+  z-index: 1;
+  margin-top: -100px;
+  font-size:30px;
+  font-family: 'Rhodium Libre', serif;
+  text-shadow:5px 5px 8px rgba(0, 0, 0, 0.575);
+  color:white;
+  padding: 0 10%;
+
+}
+#about #P1{
+  display: inline-block;
+  width:80%;
+  text-align: center;
+  padding: 0 10%;
+}
+.split{
+
+  margin-bottom: 100px;
+}
+#buttonbox{
+  margin-top: 50px;
+  /* padding: 0 37%; */
+
+}
+
+#butn1{
+  background-color: black;
+  color: white;
+  /* height:40PX; */
+  display: block;
+  width: 300px;
+  height: 30px;
+  /* padding: 0 30%; */
+  margin:0 auto;
+}
+#butn2{
+  background-color: black;
+  color: white;
+  /* height:40PX; */
+  display: block;
+  width: 300px;
+  height: 30px;
+  /* padding: 0 30%; */
+  margin:10px auto;
+
+
+}
+
+
+
+
+
+
+
 
 footer{
   height: 100px;
