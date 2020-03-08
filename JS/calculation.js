@@ -1,4 +1,5 @@
 'use strict'
+//connect html
 var div = document.getElementById('output');
 var rooms = document.getElementById('rooms');
 var submit = document.addEventListener('submit', fun);
@@ -13,7 +14,7 @@ function fun(event) {
     var numOfDoor = parseInt(document.getElementById('numOfDoors').value);
 
     console.log(event.target.rooms.value);
-    
+    //calculations
     var roomVulume = width * height * length;
     var roomArea = width * length;
     var roomAreaTiles = roomArea;
@@ -22,7 +23,7 @@ function fun(event) {
     var window = (1.6*1.3)*numOfWindows;
     var paintAmount = ((width+length)*2)*height;
     var totalPaintAmount = paintAmount - (door+window);
-
+// bathroom and kitchen have different output:
     if (event.target.rooms.value === 'Bathroom'){
      
     var paragraph = document.createElement('p');
