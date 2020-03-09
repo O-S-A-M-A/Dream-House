@@ -58,11 +58,12 @@ nav ul li:hover{
   height:300px;
   width:300px;
   margin:40px auto;
-  border:3px solid red;
-  background-color:white;
+  border:3px solid rgb(6, 246, 194);
+  background-color:rgba(98, 95, 95, 0.74);
+  border-radius: 4px;
 }
 #background{
-  background-image: url("../thumb2-stylish-gray-living-room-interior-modern-interior-design-living-room-gray-sofa.jpg");
+  background-image: url("../maxresdefault.jpg");
   background-repeat: no-repeat;
   background-size:cover;
   background-attachment: fixed;
