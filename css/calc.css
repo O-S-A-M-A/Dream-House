@@ -53,7 +53,81 @@ nav ul li:hover{
   color: rgba(255, 191, 14, 0.918);
   border-bottom: 1px solid white;
 }
-#calculate{
+
+#calculate  {
+
+width: 50%;
+padding: 12px 20px;
+margin: 50px 50px;
+display: block;
+border: 10px solid #ccc;
+border-radius: 50px;
+box-sizing: border-box;
+background-color: rgba(17, 15, 15, 0.733);
+}
+#rooms {
+  border: seagreen;
+  width: 150px;
+  padding: 12px 20px;
+/* margin: 8px ; */
+margin-right: 20cm;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 50px;
+box-sizing: border-box;
+}
+#input1{
+  margin-right: 20cm;
+
+}
+
+#input2{
+  
+}
+
+#input3{
+  
+}
+
+#input4{
+  
+}
+
+#input5{
+  
+}
+
+#calculate legend{
+  font-size:1.5em;
+  text-align:center;
+
+  color: bisque;
+}
+
+
+#calculate label{
+  text-align:center;
+  font-size:1.2em;
+  color: beige;
+
+}
+.submit-btn{
+  text-align: center;
+}
+#calculate input {
+  /* text-align:center; */
+  line-height:150%;
+  font-size:.8em;
+width: 150px;
+padding: 12px 20px;
+margin: 8px 0;
+/* display: inline-block; */
+border: 1px solid #ccc;
+border-radius: 50px;
+/* box-sizing: border-box; */
+
+}
+/* #calculate{
   display: block;
   height:300px;
   width:300px;
@@ -61,7 +135,7 @@ nav ul li:hover{
   border:3px solid rgb(6, 246, 194);
   background-color:rgba(98, 95, 95, 0.74);
   border-radius: 4px;
-}
+} */
 #background{
   background-image: url("../maxresdefault.jpg");
   background-repeat: no-repeat;
