@@ -40,7 +40,7 @@
                 </select>
                 <br>
                 <label for="Height">Height</label>
-                <input type="text" id="Height" required name="Height">
+                <input type="text" id="Height" required name="Height" >
                 <br>
                 <label for="Width">Width</label>
                 <input type="text" id="Width" required name="Width">
@@ -49,10 +49,10 @@
                 <input type="text" id="Length" required name="Length">
                 <br>
                 <label for="numOfWindows">Number Of Windows</label>
-                <input type="number" id="numOfWindows" required name="numOfWindows">
+                <input type="number" min="0" id="numOfWindows" required name="numOfWindows">
                 <br>
                 <label for="numOfToalits">Number Of Doors</label>
-                <input type="number" id="numOfDoors" required name="numOfToalits">
+                <input type="number" min="1" id="numOfDoors" required name="numOfToalits">
                 <br>
                 
                 <input type="submit">
@@ -63,8 +63,8 @@
         </div>
          
         <nav id="outPut">
-            <button type="button">Result</button>
-            <a id="store" href="cart.html">Go To Store</a>
+            <!-- <button type="button">Result</button> -->
+            <a id="store" href="store.html">Go To Store</a>
         </nav>
     </div>
     
