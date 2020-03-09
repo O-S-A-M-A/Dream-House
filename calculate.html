@@ -29,7 +29,7 @@
           </header>
     
         <form id="calculate">
-            <fieldset>
+            <fieldset id="field">
                 <legend>Home Information</legend>
                 <select id="rooms">
                     <option id="bath">Bathroom</option>
@@ -39,23 +39,24 @@
                     <option> corredor</option>
                 </select>
                 <br>
-                <label for="Height">Height</label>
-                <input type="text" id="Height" required name="Height" >
+                <label id="lable1" for="Height">Height</label>
+                <input type="text" id="Height" required name="Height">
                 <br>
-                <label for="Width">Width</label>
+                <label id="lable2" for="Width">Width</label>
                 <input type="text" id="Width" required name="Width">
                 <br>
-                <label for="Length">Length</label>
+                <label id="lable3" for="Length">Length</label>
                 <input type="text" id="Length" required name="Length">
                 <br>
-                <label for="numOfWindows">Number Of Windows</label>
-                <input type="number" min="0" id="numOfWindows" required name="numOfWindows">
+                <label id="lable4" for="numOfWindows">#Of Windows</label>
+                <input type="number" id="numOfWindows" required name="numOfWindows">
                 <br>
-                <label for="numOfToalits">Number Of Doors</label>
-                <input type="number" min="1" id="numOfDoors" required name="numOfToalits">
+                <label id="lable5" for="numOfToalits">#Of Doors</label>
+                <input type="number" id="numOfDoors" required name="numOfDoors">
                 <br>
-                
-                <input type="submit">
+                <div class="submit-btn">
+                    <input type="submit">
+                </div>
             </fieldset>
         </form>
         <div id="output">
