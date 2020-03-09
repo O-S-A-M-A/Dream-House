@@ -70,36 +70,31 @@ background-color: rgba(17, 15, 15, 0.733);
   width: 150px;
   padding: 12px 20px;
 /* margin: 8px ; */
-margin-left: 50px;
+margin-left: 130px;
 display: inline-block;
 border: 1px solid #ccc;
 border-radius: 50px;
 box-sizing: border-box;
 }
-#input1{
-  margin-left: 50px;
-
+#lable1{
+  margin-right: 55px;
 }
-
-#input2{
-  
+#lable2{
+  margin-right: 60px;
 }
-
-#input3{
-  
+#lable3{
+  margin-right: 55px;
 }
-
-#input4{
-  
+#lable4{
+  margin-right: 3px;
 }
-
-#input5{
-  
+#lable5{
+    margin-right: 29px;
 }
-
 #calculate legend{
   font-size:1.5em;
-  margin: 8px 0;
+  margin-left:110px;
+  margin-bottom: 10px;
   color: bisque;
 }
 
@@ -110,9 +105,9 @@ box-sizing: border-box;
   color: beige;
 
 }
-/* .submit-btn{
+.submit-btn{
   text-align: center;
-} */
+}
 #calculate input {
   /* text-align:center; */
   line-height:150%;
