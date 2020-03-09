@@ -5,21 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/calc.css">
 </head>
 
 <body>
-    <header>
-        <img src="img/FINAL LOGO.png" alt="logo">
-        <h2>Dream Home</h2>
-        <ul>
-            <li>Home</li>
-            <li>Contact Us</li>
-            <li>Help</li>
-        </ul>
+    <main id="container"> 
+        <div id="background">
 
-    </header>
-    <main>
+        <header>
+            <div class="logo">
+              <a href="index.html">
+              <img src="img/FINAL LOGOwhite.png" alt="logo">
+             </a>
+            </div>
+            <nav>
+               <ul>
+                   <li>Home</li>
+                   <li>Help</li>
+               </ul>
+           </nav>
+       
+          </header>
+    
         <form id="calculate">
             <fieldset>
                 <legend>Home Information</legend>
@@ -53,18 +61,19 @@
         <div id="output">
 
         </div>
+         
         <nav id="outPut">
             <button type="button">Result</button>
             <a id="store" href="cart.html">Go To Store</a>
         </nav>
-
+    </div>
     
-    </main>
-    <footer>
-
-    </footer>
+    
     <script src="JS/calculation.js"></script>
-
+</main>
+<footer>
+    <div id="copyright">@ all copyrights reserved</div>
+</footer>
 </body>
 
 </html>
