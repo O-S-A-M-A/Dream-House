@@ -70,14 +70,14 @@ background-color: rgba(17, 15, 15, 0.733);
   width: 150px;
   padding: 12px 20px;
 /* margin: 8px ; */
-margin-right: 20cm;
+margin-left: 50px;
 display: inline-block;
 border: 1px solid #ccc;
 border-radius: 50px;
 box-sizing: border-box;
 }
 #input1{
-  margin-right: 20cm;
+  margin-left: 50px;
 
 }
 
@@ -110,9 +110,9 @@ box-sizing: border-box;
   color: beige;
 
 }
-.submit-btn{
-  /* text-align: center; */
-}
+/* .submit-btn{
+  text-align: center;
+} */
 #calculate input {
   /* text-align:center; */
   line-height:150%;
