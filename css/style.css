@@ -364,7 +364,6 @@ margin:20px 0;
 #content{
   height: 500px;
   /* /////////////////////// */
-  background-color:rgb(17, 17, 17);
   overflow: hidden;
 
 }
@@ -391,7 +390,7 @@ margin:20px 0;
 #pro1text{
   display: inline-block;
   position: relative;
-  background-color: rgba(255, 205, 39, 0.459);
+  background-color: rgba(36, 80, 98, 0.397);
   left: -70px;
   top:50px;
   width: 50%;
@@ -421,38 +420,34 @@ margin:20px 0;
 
 #sellsbox img{
   display: block;
-  width: 30%;
-  height: 60%;
+  /* /* width: 30%; */
+  height: 50%; 
   float: left;
   margin:15px;
   border-radius:180px;
   margin-top: 40px;
+  margin-left:50px;
 
 }
 
 
-
-
-
-
-
-
-
-
-
-footer{
-  height: 100px;
-  background-color: #ccc;
-  
-}
 #t360text{
-  color: white;
+  text-align: center;
+  font-size:30px;
+  width:30%;
+  margin:20px auto;
+  /* height:20px; */
+  color: black;
 }
 
+#t360text:hover{
+  border-bottom:2px solid black;  
+  transform: scale(1.2);
+}
 
 
 #info{
-  height: 100px;
+  height:450px;
   background-color:rgb(17, 17, 17);
 }
 
@@ -473,18 +468,40 @@ footer{
   left: 390px;
   
 }
-#context{
+/* #context{
   color: rgb(243, 241, 241);
   text-align: center;
   font-size: 25px;
+  margin-top:5px;
 
+} */
+
+
+.mapouter{
+ margin-top:15px;
+ display: block;
+ float:left;
+ /* margin-right:-200px; */
+ margin-left:30px;
 }
 
 #copyright{
-  background-color: rgb(17, 17, 17);
-  padding: 10px 0;
+  
+  clear: both;
+  background-color: rgb(59, 59, 59);
   color: rgb(243, 241, 241);
   text-align: center;
+  padding-top:5px;
+  padding-bottom:5px;
 }
+/* p{
+  color: white;
+  font-size:25px;
+} */
+#ccoontacte{
+  position: relative;
+  top:110px;
+  color: white;
+  font-size:25px;
 
-
+}
