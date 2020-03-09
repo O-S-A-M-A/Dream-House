@@ -99,20 +99,19 @@ box-sizing: border-box;
 
 #calculate legend{
   font-size:1.5em;
-  text-align:center;
-
+  margin: 8px 0;
   color: bisque;
 }
 
 
 #calculate label{
-  text-align:center;
+  /* text-align:center; */
   font-size:1.2em;
   color: beige;
 
 }
 .submit-btn{
-  text-align: center;
+  /* text-align: center; */
 }
 #calculate input {
   /* text-align:center; */
