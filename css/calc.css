@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Bubbler+One|Bungee+Outline|Geostar|Jacques+Francois+Shadow|Kumar+One+Outline|Libre+Caslon+Display|Londrina+Sketch|Monoton|Montserrat+Subrayada|Rhodium+Libre|Saira+Stencil+One&display=swap");
-
+@import url("https://fonts.googleapis.com/css?family=PT+Serif&display=swap");
 body{
   background-color:#ddd;
 }
@@ -58,7 +58,7 @@ nav ul li:hover{
 
 width: 50%;
 padding: 12px 20px;
-margin: 50px 50px;
+margin: 50px 230px;
 display: block;
 border: 10px solid #ccc;
 border-radius: 50px;
@@ -70,7 +70,7 @@ background-color: rgba(17, 15, 15, 0.733);
   width: 150px;
   padding: 12px 20px;
 /* margin: 8px ; */
-margin-left: 130px;
+margin-left: 78px;
 display: inline-block;
 border: 1px solid #ccc;
 border-radius: 50px;
@@ -117,7 +117,7 @@ padding: 12px 20px;
 margin: 8px 0;
 /* display: inline-block; */
 border: 1px solid #ccc;
-border-radius: 50px;
+border-radius: 10px;
 /* box-sizing: border-box; */
 
 }
@@ -138,6 +138,30 @@ border-radius: 50px;
   width:100%;
   height:100%;
  
+}
+#output{
+  background-color: rgba(173, 158, 158, 0.568);
+  border-radius: 8px;
+  box-sizing: border-box;
+
+  border: solid rgba(0, 0, 0, 0.411);
+  font-size: x-large;
+  font-family: 'PT Serif', serif;
+  
+}
+#outPut{
+  background-color: rgba(206, 115, 115, 0.712);
+  border-radius: 8px;
+  box-sizing: border-box;
+  border: solid rgb(0, 0, 0);
+  font-size: x-large;
+  font-family: 'PT Serif', serif;
+  margin-right: 395px;
+  width: 150px;
+  text-align: center;
+  display: inline-table;
+
+
 }
 
 
