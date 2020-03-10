@@ -10,71 +10,74 @@
 </head>
 
 <body>
-    <main id="container"> 
+    <main id="container">
         <div id="background">
 
-        <header>
-            <div class="logo">
-              <a href="index.html">
-              <img src="img/FINAL LOGOwhite.png" alt="logo">
-             </a>
-            </div>
-            <nav>
-               <ul>
-                   <li>Home</li>
-                   <li>Help</li>
-               </ul>
-           </nav>
-       
-          </header>
-    
-        <form id="calculate">
-            <fieldset id="field">
-                <legend>Home Information</legend>
-                <select id="rooms">
-                    <option id="bath">Bathroom</option>
-                    <option> Bedroom</option>
-                    <option> Livingroom</option>
-                    <option> Kitchen</option>
-                    <option> corredor</option>
-                </select>
-                <br>
-                <label id="lable1" for="Height">Height</label>
-                <input type="text" id="Height" required name="Height">
-                <br>
-                <label id="lable2" for="Width">Width</label>
-                <input type="text" id="Width" required name="Width">
-                <br>
-                <label id="lable3" for="Length">Length</label>
-                <input type="text" id="Length" required name="Length">
-                <br>
-                <label id="lable4" for="numOfWindows">#Of Windows</label>
-                <input type="number" id="numOfWindows" required name="numOfWindows">
-                <br>
-                <label id="lable5" for="numOfToalits">#Of Doors</label>
-                <input type="number" id="numOfDoors" required name="numOfDoors">
-                <br>
-                <div class="submit-btn">
-                    <input type="submit">
+            <header>
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/FINAL LOGOwhite.png" alt="logo">
+                    </a>
                 </div>
-            </fieldset>
-        </form>
-        <div id="output">
+                <nav>
+                    <ul>
+                        <li> <a href="index.html"> Home </a></li>
+                        <li> <a href="calculate.html"> Help</a></li>
+                        <li><a href="store.html">Store</a></li>
 
+                    </ul>
+                </nav>
+
+            </header>
+
+            <form id="calculate">
+                <fieldset id="field">
+                    <legend>Home Information</legend>
+                    <label id="lable0" for="select">Select</label>
+                    <select id="rooms">
+                        <option id="bath">Bathroom</option>
+                        <option> Bedroom</option>
+                        <option> Livingroom</option>
+                        <option> Kitchen</option>
+                        <option> corredor</option>
+                    </select>
+                    <br>
+                    <label id="lable1" for="Height">Height</label>
+                    <input type="text" id="Height" required name="Height" min="2">
+                    <br>
+                    <label id="lable2" for="Width">Width</label>
+                    <input type="text" id="Width" required name="Width" min="1">
+                    <br>
+                    <label id="lable3" for="Length">Length</label>
+                    <input type="text" id="Length" required name="Length" min="2">
+                    <br>
+                    <label id="lable4" for="numOfWindows">#Of Windows</label>
+                    <input type="number" id="numOfWindows" required name="numOfWindows" min="1">
+                    <br>
+                    <label id="lable5" for="numOfToalits">#Of Doors</label>
+                    <input type="number" id="numOfDoors" required name="numOfDoors" min="1">
+                    <br>
+                    <div class="submit-btn">
+                        <input type="submit">
+                    </div>
+                </fieldset>
+            </form>
+            <div id="output">
+
+            </div>
+
+            <nav id="outPut">
+                <!-- <button type="button">Result</button> -->
+                <a id="store" href="store.html">Go To Store</a>
+            </nav>
         </div>
-         
-        <nav id="outPut">
-            <!-- <button type="button">Result</button> -->
-            <a id="store" href="store.html">Go To Store</a>
-        </nav>
-    </div>
-    
-    
-    <script src="JS/calculation.js"></script>
-</main>
-<footer>
-    <div id="copyright">@ all copyrights reserved</div>
-</footer>
+
+
+        <script src="JS/calculation.js"></script>
+    </main>
+    <footer>
+        <div id="copyright">@ all copyrights reserved</div>
+    </footer>
 </body>
 
 </html>
