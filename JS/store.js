@@ -52,7 +52,7 @@ function productOne(event) {
     if(document.getElementById('Tiles1Quantity').value !== ''){
     
     var quantity = parseFloat(document.getElementById('Tiles1Quantity').value);
-    var price = 3 * quantity;
+    var price = (3 * quantity).toFixed(2);
     new product(name, quantity,price);
     console.log(productArray);
     numberOfItemsInCart++;
@@ -75,7 +75,7 @@ function productTwo(event) {
     var name = 'Wood tiles';
     if(document.getElementById('Tiles2Quantity').value !== ''){
     var quantity = parseFloat(document.getElementById('Tiles2Quantity').value);
-    var price = 4.5 * quantity;
+    var price = (4.5 * quantity).toFixed(2);
 
     new product(name, quantity, price);
     console.log(productArray);
@@ -96,7 +96,7 @@ function productThree(event) {
     var name = 'Bathroom tiles';
     if(document.getElementById('Tiles3Quantity').value !== ''){
     var quantity = parseFloat(document.getElementById('Tiles3Quantity').value);
-    var price = 2.5 * quantity;
+    var price = (2.5 * quantity).toFixed(2);
     new product(name, quantity, price);
     console.log(productArray);
     numberOfItemsInCart++;
@@ -117,7 +117,7 @@ function productFour(event) {
     var name = 'Deckmixer tap';
     if(document.getElementById('tap1Quantity').value !== ''){
     var quantity = parseInt(document.getElementById('tap1Quantity').value);
-    var price = 7.99 * quantity;
+    var price = (7.99 * quantity).toFixed(2);
     new product(name, quantity,price);
     console.log(productArray);
     numberOfItemsInCart++;
@@ -136,7 +136,7 @@ function productFive(event) {
     var name = 'Mixer tap';
     if(document.getElementById('tap2Quantity').value !== ''){
     var quantity = parseInt(document.getElementById('tap2Quantity').value);
-    var price = 23.99 * quantity;
+    var price = (23.99 * quantity).toFixed(2);
     new product(name, quantity, price);
     console.log(productArray);
     numberOfItemsInCart++;
@@ -155,7 +155,7 @@ function productSix(event) {
     var name = 'Riviera palazzo tap';
     if(document.getElementById('tap3Quantity').value !== ''){
     var quantity = parseInt(document.getElementById('tap3Quantity').value);
-    var price = 49.99 * quantity;
+    var price = (49.99 * quantity).toFixed(2);
     new product(name, quantity, price);
     console.log(productArray);
     numberOfItemsInCart++;
@@ -178,7 +178,7 @@ function productSeven(event) {
     var name = 'Small shower';
     if(document.getElementById('shower1Quantity').value !== ''){
     var quantity = parseInt(document.getElementById('shower1Quantity').value);
-    var price = 21.25 * quantity;
+    var price = (21.25 * quantity).toFixed(2);
     new product(name, quantity, price);
     console.log(productArray);
     numberOfItemsInCart++;
@@ -197,7 +197,7 @@ function productEight(event) {
     var name = 'Square shower';
     if(document.getElementById('shower2Quantity').value !== ''){
     var quantity = parseInt(document.getElementById('shower2Quantity').value);
-    var price = 38.25 * quantity;
+    var price = (38.25 * quantity).toFixed(2);
     new product(name, quantity,price);
     console.log(productArray);
     numberOfItemsInCart++;
@@ -217,7 +217,7 @@ function productNine(event) {
     var name = 'Riviera palazzo tap';
     if(document.getElementById('shower3Quantity').value !== ''){
     var quantity = parseInt(document.getElementById('shower3Quantity').value);
-    var price = 93.5 * quantity;
+    var price = (93.5 * quantity).toFixed(2);
     new product(name, quantity, price);
     console.log(productArray);
     numberOfItemsInCart++;
@@ -238,7 +238,7 @@ function productTen(event) {
     var name = 'Dulux paints';
     if(document.getElementById('paint1Quantity').value !== ''){
     var quantity = parseInt(document.getElementById('paint1Quantity').value);
-    var price = 4.3 * quantity;
+    var price = (4.3 * quantity).toFixed(2);
     new product(name, quantity, price);
     console.log(productArray);
     numberOfItemsInCart++;
@@ -258,7 +258,7 @@ function productEleven(event) {
     var name = 'National paints';
     if(document.getElementById('paint2Quantity').value !== ''){
     var quantity = parseInt(document.getElementById('paint2Quantity').value);
-    var price = 6.25 * quantity;
+    var price = (6.25 * quantity).toFixed(2);
     new product(name, quantity, price);
     console.log(productArray);
     numberOfItemsInCart++;
@@ -278,7 +278,7 @@ function productTwelve(event) {
     var name = 'Jotun paints';
     if(document.getElementById('paint3Quantity').value !== ''){
     var quantity = parseInt(document.getElementById('paint3Quantity').value);
-    var price = 7.8 * quantity;
+    var price = (7.8 * quantity).toFixed(2);
     new product(name, quantity, price);
     console.log(productArray);
     numberOfItemsInCart++;

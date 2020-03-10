@@ -38,9 +38,10 @@ for (var i = 0; i < billArray.length; i++) {
     total2 = total2 + billArray[i].quantity;
 
     var td3 = document.createElement('td');
-    td3.textContent = `${billArray[i].price}`;
+    console.log(billArray[i].price);
+    td3.textContent = `${billArray[i].price} JD`;
     tr1.appendChild(td3);
-    total += billArray[i].price;
+    total += parseFloat(billArray[i].price);
 }
 
 
@@ -56,5 +57,5 @@ tr1.appendChild(td3);
 
 var td2 = document.createElement('td');
 tr1.appendChild(td2);
-td2.textContent = `${total}`;
+td2.textContent = `${total.toFixed(2)} JD`;
 console.log(total);
