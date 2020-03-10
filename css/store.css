@@ -59,7 +59,14 @@ nav ul li:hover{
   color: rgba(255, 191, 14, 0.918);
   border-bottom: 1px solid white;
 }
-
+nav ul li a{
+  color: rgb(253, 253, 253);
+  text-decoration: none;
+}
+nav button a {
+  color: rgb(29, 28, 28);
+  text-decoration: none;
+}
   /* nav{
     width: 80%;
     float: right;
