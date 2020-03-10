@@ -165,6 +165,17 @@
         <p id="copyright">@ all copyrights reserved</p>
       </div>
     </footer>
+    <script>
+      var section=document.getElementById("pro1text");
+      var myScrollFunc = function() {
+  var y = window.scrollY;
+  if (y > 500) {
+    // myID.style.backgroundColor = "blue"; // you can add individual styles 
+    section.classList.add("pro1text") ; // or add classes
+  } 
+};
+window.addEventListener("scroll", myScrollFunc);
+    </script>
   </main>
 
 </body>
