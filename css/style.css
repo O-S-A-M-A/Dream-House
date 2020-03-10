@@ -526,7 +526,7 @@ margin:20px 0;
 
 #contact{
   display: block;
-  height: 300px;
+  min-height: 150px;
   margin:20px auto;
   width:100%;
 }
@@ -575,4 +575,44 @@ margin:20px 0;
   color: white;
   font-size:25px;
 
+}
+#footImg0{
+  display: block;
+  width: 20px;
+  height: 20px;
+  float: left;
+}
+
+#footImg1{
+  display: block;
+  width: 20px;
+  height: 20px;
+  float: left;
+}
+
+#footImg2{
+  display: block;
+  width: 20px;
+  height: 20px;
+  float: left;
+}
+
+#footImg3{
+  display: block;
+  width: 20px;
+  height: 20px;
+  float: left;
+}
+
+#footImg4{
+  display: block;
+  width: 20px;
+  height: 20px;
+  float: left;
+}
+#footImg5{
+  display: block;
+  width: 20px;
+  height: 20px;
+  float: left;
 }
