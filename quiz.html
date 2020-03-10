@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/calc.css">
+    <link rel="stylesheet" href="css/quiz.css">
 </head>
 
 <body>
@@ -21,45 +21,53 @@
             </div>
             <nav>
                <ul>
-                   <li>Home</li>
-                   <li>Help</li>
+                <li> <a href="index.html"> Home </a></li>
+                <li> <a href="calculate.html"> Help</a></li>
+                <li><a href="store.html">Store</a></li>
                </ul>
            </nav>
        
           </header>
-    
+          <p id="legendtext"> which style suits you ?</p>
         <form id="quiz">
             <fieldset id="field">
-                <legend>which style suits you ?</legend>
-               
+                
+               <div id="q1box">
                 <label id="q1" for="type">which type do you prefer?</label>
+                <br>
                 <input type="radio" id="formalll" required name="formalOrCozy" value="formalll">Formal
                 <br>
                 <input type="radio" id="cozy" required name="formalOrCozy" value="cozy">Cozy
-                <br>
+            </div>
+            <br>
 
 
-
+            <div id="q2box">
                 <label id="q2" for="withOrWithoutOrnamentation">what do you prefer?</label>
+                <br>
                 <input type="radio" id="WithOrnamentation" required name="OrnamentationOrSimplicity" value="WithOrnamentation">the Ornamentation and patterns
                 <br>
                 <input type="radio" id="formal" required name="OrnamentationOrSimplicity" value="the simplicity">the simplicity
+            </div>
                 <br>
 
+                <div id="q3box">
                 <label id="q3" for="colorfulOrneutral">what do you prefer?</label>
+                <br>
                 <input type="radio" id="colorful" required name="colorfulOrneutralColors" value="colorful">A lot of colors
                 <br>
                 <input type="radio" id="formal" required name="colorfulOrneutralColors" value="neutral colors">Neutral colors
                 <br>
-
+            </div>
 
                 
                 <div class="submit-btn">
-                    <input type="submit">
+                    <input type="submit" id="btnform">
                 </div>
             </fieldset>
         </form>
         <div id="output">
+            <img id="outputimage" src="" alt="">
 
         </div>
          
