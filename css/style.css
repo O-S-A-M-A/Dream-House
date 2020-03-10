@@ -518,18 +518,17 @@ margin:20px 0;
 
 
 #info{
-  height:450px;
-  background-color:rgb(17, 17, 17);
+  background-color:rgba(170, 162, 162, 0.966);
 }
 
 
 
-#contact{
+/* #contact{
   display: block;
   min-height: 150px;
   margin:20px auto;
   width:100%;
-}
+} */
 #contact img{
   display: block;
   width:4%;
@@ -556,26 +555,28 @@ margin:20px 0;
  margin-left:30px;
 }
 
-#copyright{
-  
-  clear: both;
-  background-color: rgb(59, 59, 59);
-  color: rgb(243, 241, 241);
-  text-align: center;
-  padding-top:5px;
-  padding-bottom:5px;
-}
 /* p{
   color: white;
   font-size:25px;
 } */
-#ccoontacte{
+ul{
   position: relative;
-  top:110px;
+  /* top:110px; */
   color: white;
   font-size:25px;
+  /* width: 40%; */
+  /* float: right; */
 
 }
+ul img{
+  display: block;
+  width: 20px;
+  height: 20px;
+  float: left;
+  border-radius: 50%;
+  
+}
+/* 
 #footImg0{
   display: block;
   width: 20px;
@@ -615,4 +616,13 @@ margin:20px 0;
   width: 20px;
   height: 20px;
   float: left;
-}
+} */
+                      #copyright{
+                        
+                        clear: both;
+                        background-color: rgb(59, 59, 59);
+                        color: rgb(243, 241, 241);
+                        text-align: center;
+                        padding-top:5px;
+                        padding-bottom:5px;
+                      }
