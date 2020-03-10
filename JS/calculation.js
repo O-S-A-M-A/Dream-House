@@ -21,24 +21,26 @@ function fun(event) {
     
     var door = (2*1)*numOfDoor;
     var window = (1.6*1.3)*numOfWindows;
+    var bathWindow = (0.8*0.78)*numOfWindows;
     var paintAmount = ((width+length)*2)*height;
-    var totalPaintAmount = paintAmount - (door+window);
+    var totalPaintAmount =((paintAmount - (door+window))/10).toFixed(2);
+    var totalBathPaintAmount = ((paintAmount-(door+bathWindow))/10).toFixed(2);
 // bathroom and kitchen have different output:
     if (event.target.rooms.value === 'Bathroom'){
      
     var paragraph = document.createElement('p');
     div.appendChild(paragraph);
-    paragraph.textContent = `You need ${roomAreaTiles} square meters of Tiles , And ${totalPaintAmount} square meters of wall paint , And 2 taps`;
+    paragraph.textContent = ` You need ${roomAreaTiles} square meters of Tiles , And ${totalBathPaintAmount} KG of wall paint , And 2 taps`;
     }
     else if (event.target.rooms.value === 'Kitchen'){
         var paragraph = document.createElement('p');
     div.appendChild(paragraph);
-    paragraph.textContent = `You need ${roomAreaTiles} square meters of Tiles , And ${totalPaintAmount} square meters of wall paint , And 1 tap`;
+    paragraph.textContent = ` You need ${roomAreaTiles} square meters of Tiles , And ${totalPaintAmount} KG of wall paint , And 1 tap`;
     }
     else{
         var paragraph = document.createElement('p');
     div.appendChild(paragraph);
-    paragraph.textContent = `You need ${roomAreaTiles} square meters of Tiles , And ${totalPaintAmount} square meters of wall paint`;
+    paragraph.textContent = ` You need ${roomAreaTiles} square meters of Tiles , And ${totalPaintAmount} KG of wall paint`;
     }
 
 }
