@@ -1,8 +1,9 @@
+
 body{
-    background-color:#ddd;
+    background-color:  grey;
   }
   #container{
-    background-color:white ;
+    background-color: gainsboro ;
     
     background-repeat: no-repeat;
     background-size:cover;
@@ -11,17 +12,21 @@ body{
     height:100%;
     width: 940px;
     margin:20px auto;
-    background-color: #fff;
+    background-color: Gainsboro ;
     min-height: 1000px;
     
   }
   
   header{
     min-height: 100px;
+
     background-color: rgba(10, 10, 10, 0.904);
-    overflow: hidden;
+    overflow: visible;
     position: relative;
+    opacity: 70%;
     z-index: 3;
+  
+  
   }
   
   .logo{
@@ -46,13 +51,18 @@ body{
     font-size: 22px;
     
   }
-  nav ul li {
+  nav ul li{
     display: inline-block;
     padding: 10px;
     position: relative;
     left:550px;
     top: 25px;
-    color: white;
+    color:white;
+   
+  }
+  nav ul li a  {
+
+    color:white;
    
   }
   nav ul li:hover{
@@ -70,18 +80,23 @@ body{
 table{
 
        
-    border: 1px solid ghostwhite;
+    border: 2px solid ghostwhite;
     /* background-color: gray; */
 }
-tr{
+tr:hover{
     border: 1px solid;
-    background-color: silver;
+    background-color: dimgray;
     opacity: 70%;
+    color: white;
+
+  
     
 }
 th{
-background-color: turquoise;
+
+background-color: DarkSlateGrey;
 opacity: 50%;
+color: white;
 }
 td{
         border: 1px solid ;
@@ -89,10 +104,11 @@ td{
         
 }
 #tab{
-    
+  margin-top:5%;
     display: block;
-    margin: 25%;
+    /* margin: 25%; */
     width: 442px;
+    margin-left: 25%;
     
 }
 #copyright{
@@ -101,3 +117,11 @@ td{
     color: rgb(243, 241, 241);
     text-align: center;
   }
+#Text{
+  color: maroon;
+  font-family: 'Viaoda Libre', cursive;
+  text-align: center;
+  /* width: 50 px; */
+  size: 20%;
+  /* margin-top: 5%; */
+}

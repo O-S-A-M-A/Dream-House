@@ -15,7 +15,6 @@ var btn10 = document.getElementById('Img10');
 var btn11 = document.getElementById('Img11');
 var btn12 = document.getElementById('Img12');
 var paragraph = document.getElementById('cartQuantity');
-var paragraph1 = document.getElementById('productinfo');
 var btn13 = document.getElementById('chooseTint');
 function product(name, quantity, price) {
     this.name = name;
@@ -46,7 +45,7 @@ btn13.addEventListener('click', color);
 
 function productOne(event) {
     event.preventDefault();
-    var name = 'Tiles1';
+    var name = 'Ordinary Tiles';
     
 
     if(document.getElementById('Tiles1Quantity').value !== ''){
@@ -301,3 +300,5 @@ function color(event){
     console.log(tint);
 
 }
+
+
