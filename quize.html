@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/calc.css">
+</head>
+
+<body>
+    <main id="container"> 
+        <div id="background">
+
+        <header>
+            <div class="logo">
+              <a href="index.html">
+              <img src="img/FINAL LOGOwhite.png" alt="logo">
+             </a>
+            </div>
+            <nav>
+               <ul>
+                   <li>Home</li>
+                   <li>Help</li>
+               </ul>
+           </nav>
+       
+          </header>
+    
+        <form id="quiz">
+            <fieldset id="field">
+                <legend>which style suits you ?</legend>
+               
+                <label id="q1" for="type">which type do you prefer?</label>
+                <input type="radio" id="formalll" required name="formalOrCozy" value="formalll">Formal
+                <br>
+                <input type="radio" id="cozy" required name="formalOrCozy" value="cozy">Cozy
+                <br>
+
+
+
+                <label id="q2" for="withOrWithoutOrnamentation">what do you prefer?</label>
+                <input type="radio" id="WithOrnamentation" required name="OrnamentationOrSimplicity" value="WithOrnamentation">the Ornamentation and patterns
+                <br>
+                <input type="radio" id="formal" required name="OrnamentationOrSimplicity" value="the simplicity">the simplicity
+                <br>
+
+                <label id="q3" for="colorfulOrneutral">what do you prefer?</label>
+                <input type="radio" id="colorful" required name="colorfulOrneutralColors" value="colorful">A lot of colors
+                <br>
+                <input type="radio" id="formal" required name="colorfulOrneutralColors" value="neutral colors">Neutral colors
+                <br>
+
+
+                
+                <div class="submit-btn">
+                    <input type="submit">
+                </div>
+            </fieldset>
+        </form>
+        <div id="output">
+
+        </div>
+         
+     
+    </div>
+    
+    
+    <script src="JS/quiz.js"></script>
+</main>
+<footer>
+    <div id="copyright">@ all copyrights reserved</div>
+</footer>
+</body>
+
+</html>
