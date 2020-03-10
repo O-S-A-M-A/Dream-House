@@ -439,6 +439,7 @@ margin:20px 0;
   border-left:4px solid black;
   font-family:'Barlow Condensed', sans-serif;
   box-shadow:-5px 3px 15px grey;
+  animation: moveleft 4s ease-in;
   
 }
 /* _______________________________________________________- */
@@ -596,4 +597,16 @@ color: rgb(243, 241, 241);
 text-align: center;
 padding-top:5px;
 padding-bottom:5px;
+}
+@keyframes moveleft
+{
+    0%
+    {
+opacity: 0;
+    }
+    100%
+    {
+        transform: translate(-50px);
+    opacity: 1;
+    }
 }
