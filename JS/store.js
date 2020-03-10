@@ -15,7 +15,7 @@ var btn10 = document.getElementById('Img10');
 var btn11 = document.getElementById('Img11');
 var btn12 = document.getElementById('Img12');
 var paragraph = document.getElementById('cartQuantity');
-
+var paragraph1 = document.getElementById('productinfo');
 var btn13 = document.getElementById('chooseTint');
 function product(name, quantity, price) {
     this.name = name;
@@ -50,16 +50,22 @@ function productOne(event) {
     
 
     if(document.getElementById('Tiles1Quantity').value !== ''){
-
+    
     var quantity = parseFloat(document.getElementById('Tiles1Quantity').value);
     var price = 3 * quantity;
-    new product(name, quantity, price);
+    new product(name, quantity,price);
     console.log(productArray);
     numberOfItemsInCart++;
     paragraph.textContent = numberOfItemsInCart;
+    
+   
 
     var productsItems = JSON.stringify(productArray);
-    localStorage.setItem( 'products', productsItems);}
+    localStorage.setItem( 'products', productsItems);
+
+    document.getElementById('Tiles1Quantity').value = ''
+    
+}
     else
     alert('please enter a value');
 
@@ -70,13 +76,17 @@ function productTwo(event) {
     if(document.getElementById('Tiles2Quantity').value !== ''){
     var quantity = parseFloat(document.getElementById('Tiles2Quantity').value);
     var price = 4.5 * quantity;
+
     new product(name, quantity, price);
     console.log(productArray);
     numberOfItemsInCart++;
     paragraph.textContent = numberOfItemsInCart;
 
     var productsItems = JSON.stringify(productArray);
-    localStorage.setItem( 'products', productsItems);}
+    localStorage.setItem( 'products', productsItems);
+    document.getElementById('Tiles2Quantity').value = ''
+
+}
     else
     alert('please enter a value');
 
@@ -93,7 +103,9 @@ function productThree(event) {
     paragraph.textContent = numberOfItemsInCart;
 
     var productsItems = JSON.stringify(productArray);
-    localStorage.setItem( 'products', productsItems);}
+    localStorage.setItem( 'products', productsItems);
+    document.getElementById('Tiles3Quantity').value = ''
+}
     else
     alert('please enter a value');
 
@@ -106,13 +118,15 @@ function productFour(event) {
     if(document.getElementById('tap1Quantity').value !== ''){
     var quantity = parseInt(document.getElementById('tap1Quantity').value);
     var price = 7.99 * quantity;
-    new product(name, quantity, price);
+    new product(name, quantity,price);
     console.log(productArray);
     numberOfItemsInCart++;
     paragraph.textContent = numberOfItemsInCart;
 
     var productsItems = JSON.stringify(productArray);
-    localStorage.setItem( 'products', productsItems);}
+    localStorage.setItem( 'products', productsItems);
+    document.getElementById('tap1Quantity').value = ''
+}
     else
     alert('please enter a value');
 
@@ -129,7 +143,9 @@ function productFive(event) {
     paragraph.textContent = numberOfItemsInCart;
 
     var productsItems = JSON.stringify(productArray);
-    localStorage.setItem( 'products', productsItems);}
+    localStorage.setItem( 'products', productsItems);
+    document.getElementById('tap2Quantity').value = ''
+}
     else
     alert('please enter a value');
 
@@ -146,7 +162,9 @@ function productSix(event) {
     paragraph.textContent = numberOfItemsInCart;
 
     var productsItems = JSON.stringify(productArray);
-    localStorage.setItem( 'products', productsItems);}
+    localStorage.setItem( 'products', productsItems);
+    document.getElementById('tap3Quantity').value = ''
+}
     else
     alert('please enter a value');
 
@@ -167,7 +185,9 @@ function productSeven(event) {
     paragraph.textContent = numberOfItemsInCart;
 
     var productsItems = JSON.stringify(productArray);
-    localStorage.setItem( 'products', productsItems);}
+    localStorage.setItem( 'products', productsItems);
+    document.getElementById('shower1Quantity').value = ''
+}
     else
     alert('please enter a value');
 
@@ -178,13 +198,16 @@ function productEight(event) {
     if(document.getElementById('shower2Quantity').value !== ''){
     var quantity = parseInt(document.getElementById('shower2Quantity').value);
     var price = 38.25 * quantity;
-    new product(name, quantity, price);
+    new product(name, quantity,price);
     console.log(productArray);
     numberOfItemsInCart++;
     paragraph.textContent = numberOfItemsInCart;
 
     var productsItems = JSON.stringify(productArray);
-    localStorage.setItem( 'products', productsItems);}
+    localStorage.setItem( 'products', productsItems);
+    document.getElementById('shower2Quantity').value = ''
+
+}
     else
     alert('please enter a value');
 
@@ -201,7 +224,10 @@ function productNine(event) {
     paragraph.textContent = numberOfItemsInCart;
 
     var productsItems = JSON.stringify(productArray);
-    localStorage.setItem( 'products', productsItems);}
+    localStorage.setItem( 'products', productsItems);
+    document.getElementById('shower3Quantity').value = ''
+
+}
     else
     alert('please enter a value');
 
@@ -219,7 +245,10 @@ function productTen(event) {
     paragraph.textContent = numberOfItemsInCart;
 
     var productsItems = JSON.stringify(productArray);
-    localStorage.setItem( 'products', productsItems);}
+    localStorage.setItem( 'products', productsItems);
+    document.getElementById('paint1Quantity').value = ''
+
+}
     else
     alert('please enter a value');
 
@@ -236,7 +265,10 @@ function productEleven(event) {
     paragraph.textContent = numberOfItemsInCart;
 
     var productsItems = JSON.stringify(productArray);
-    localStorage.setItem( 'products', productsItems);}
+    localStorage.setItem( 'products', productsItems);
+    document.getElementById('paint2Quantity').value = ''
+
+}
     else
     alert('please enter a value');
 
@@ -253,7 +285,10 @@ function productTwelve(event) {
     paragraph.textContent = numberOfItemsInCart;
 
     var productsItems = JSON.stringify(productArray);
-    localStorage.setItem( 'products', productsItems);}
+    localStorage.setItem( 'products', productsItems);
+    document.getElementById('paint3Quantity').value = ''
+
+}
     else
     alert('please enter a value');
 
