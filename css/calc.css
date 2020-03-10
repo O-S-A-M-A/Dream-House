@@ -1,13 +1,21 @@
 @import url("https://fonts.googleapis.com/css?family=Bubbler+One|Bungee+Outline|Geostar|Jacques+Francois+Shadow|Kumar+One+Outline|Libre+Caslon+Display|Londrina+Sketch|Monoton|Montserrat+Subrayada|Rhodium+Libre|Saira+Stencil+One&display=swap");
 @import url("https://fonts.googleapis.com/css?family=PT+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Monoton|PT+Serif&display=swap");
 body{
   background-color:#ddd;
 }
 #container{
+  background-image: url("../maxresdefault.jpg");
+  
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  width:100%;
+  height:100%;
   width: 940px;
   margin:20px auto;
   background-color: #fff;
-  height: 1000px;
+  min-height: 1000px;
   
 }
 
@@ -94,9 +102,11 @@ box-sizing: border-box;
 }
 #calculate legend{
   font-size:1.5em;
-  margin-left:110px;
-  margin-bottom: 10px;
-  color: bisque;
+  margin-left: 63px;
+    margin-bottom: 11px;
+    color: bisque;
+  font-family: 'PT Serif', serif;
+font-family: 'Monoton', cursive;
 }
 
 
@@ -108,7 +118,7 @@ box-sizing: border-box;
 }
 .submit-btn{
   text-align: center;
-}
+  }
 #calculate input {
   /* text-align:center; */
   line-height:150%;
@@ -131,38 +141,39 @@ border-radius: 10px;
   background-color:rgba(98, 95, 95, 0.74);
   border-radius: 4px;
 } */
-#background{
-  background-image: url("../maxresdefault.jpg");
-  background-repeat: no-repeat;
-  background-size:cover;
-  background-attachment: fixed;
-  width:100%;
-  height:100%;
- 
-}
 #output{
-  background-color: rgba(173, 158, 158, 0.568);
+  background-color: rgba(0, 0, 0, 0.842);
   border-radius: 8px;
   box-sizing: border-box;
-
-  border: solid rgba(0, 0, 0, 0.411);
+  border: solid rgb(250, 240, 240);
   font-size: x-large;
   font-family: 'PT Serif', serif;
+  color: #ddd;
+  margin: 20px;
   
 }
-#outPut{
-  background-color: rgba(206, 115, 115, 0.712);
+button{
+  background-color: rgba(253, 250, 250, 0.767);
   border-radius: 8px;
   box-sizing: border-box;
   border: solid rgb(0, 0, 0);
   font-size: x-large;
   font-family: 'PT Serif', serif;
-  margin-right: 395px;
+  margin-left: 255px;
+  margin-top: 20px;
   width: 150px;
   text-align: center;
   display: inline-table;
+  color: #ddd;
 
-
+}
+#storeButton{
+  text-decoration: none;
+  color: black;
+}
+a{
+  text-decoration: none;
+  color: rgb(255, 246, 246);
 }
 
 
