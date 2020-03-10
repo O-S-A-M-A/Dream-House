@@ -1,15 +1,26 @@
 .productContainer{
     display: flex;
+    margin-top: 20px;
+
     
 }
 .productImg{
-    padding: 10px;
-    border: 5px solid grey;
-    background-color: rgba(54, 54, 33, 0.815);
+  padding: 12px;
+  margin: 15px;
+  border-radius: 3%;
+  /* border: 2px solid grey; */
+  box-shadow: 2px 3px 8px grey;
+    background-color: rgba(63, 63, 51, 0.815); 
+    height: 320px;
 }
+
+  
+
+
+
 #sidenav {
 height: 100%;
-width: 200px;
+width: 150px;
 position: fixed;
 z-index: 1;
 top: 0;
@@ -93,24 +104,31 @@ nav ul li:hover{
   }
   header{
     min-height: 100px;
-    background-color: rgba(10, 10, 10, 0.904);
+    background-color: rgba(10, 10, 10, 0.87);
     overflow: hidden;
     position: relative;
     z-index: 3;
+    padding-bottom: 1px;
+    /* margin-bottom: 100px; */
+    /* display: block;
+    width: 100%;
+    position: fixed; */
+
   }
   
   #Tiles1Quantity{
     width: 100%;
-    padding: 12px 20px;
+    padding: 5px 5px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 4px solid rgba(68, 108, 134, 0.822);
+    border: 4px solid rgba(68, 106, 134, 0.767);
     border-radius: 25px;
+    
   }
 
   #Tiles2Quantity{
     width: 100%;
-    padding: 12px 20px;
+    padding: 5px 5px;
     margin: 8px 0;
     box-sizing: border-box;
     border: 4px solid rgba(68, 108, 134, 0.822);
@@ -118,7 +136,7 @@ nav ul li:hover{
   }
   #Tiles3Quantity{
     width: 100%;
-    padding: 12px 20px;
+    padding: 5px 5px;
     margin: 8px 0;
     box-sizing: border-box;
     border: 4px solid rgba(68, 108, 134, 0.822);
@@ -127,7 +145,7 @@ nav ul li:hover{
 
   #tap1Quantity{
     width: 100%;
-    padding: 12px 20px;
+    padding: 5px 5px;
     margin: 8px 0;
     box-sizing: border-box;
     border: 4px solid rgba(68, 108, 134, 0.822);
@@ -135,7 +153,7 @@ nav ul li:hover{
   }
   #tap2Quantity{
     width: 100%;
-    padding: 12px 20px;
+    padding: 5px 5px;
     margin: 8px 0;
     box-sizing: border-box;
     border: 4px solid rgba(68, 108, 134, 0.822);
@@ -143,7 +161,7 @@ nav ul li:hover{
   }
   #tap3Quantity{
     width: 100%;
-    padding: 12px 20px;
+    padding: 5px 5px;
     margin: 8px 0;
     box-sizing: border-box;
     border: 4px solid rgba(68, 108, 134, 0.822);
@@ -151,7 +169,7 @@ nav ul li:hover{
   }
   #shower1Quantity{
     width: 100%;
-    padding: 12px 20px;
+    padding: 5px 5px;
     margin: 8px 0;
     box-sizing: border-box;
     border: 4px solid rgba(68, 108, 134, 0.822);
@@ -159,7 +177,7 @@ nav ul li:hover{
   }
   #shower2Quantity{
     width: 100%;
-    padding: 12px 20px;
+    padding: 5px 5px;
     margin: 8px 0;
     box-sizing: border-box;
     border: 4px solid rgba(68, 108, 134, 0.822);
@@ -167,7 +185,7 @@ nav ul li:hover{
   }
   #shower3Quantity{
     width: 100%;
-    padding: 12px 20px;
+    padding: 5px 5px;
     margin: 8px 0;
     box-sizing: border-box;
     border: 4px solid rgba(68, 108, 134, 0.822);
@@ -175,7 +193,7 @@ nav ul li:hover{
   }
   #paint1Quantity{
     width: 100%;
-    padding: 12px 20px;
+    padding: 5px 5px;
     margin: 8px 0;
     box-sizing: border-box;
     border: 4px solid rgba(68, 108, 134, 0.822);
@@ -183,7 +201,7 @@ nav ul li:hover{
   }
   #paint2Quantity{
     width: 100%;
-    padding: 12px 20px;
+    padding: 5px 5px;
     margin: 8px 0;
     box-sizing: border-box;
     border: 4px solid rgba(68, 108, 134, 0.822);
@@ -191,14 +209,15 @@ nav ul li:hover{
   }
   #paint3Quantity{
     width: 100%;
-    padding: 12px 20px;
+    padding: 5px 5px;
+    
     margin: 8px 0;
     box-sizing: border-box;
     border: 4px solid rgba(68, 108, 134, 0.822);
     border-radius: 25px;
   }
   #paintTint{
-     width: 100%;
+     /* width: 100%; */
     /* padding: 8px 10px; */
     margin: 8px 0;
     box-sizing: border-box;
@@ -207,8 +226,72 @@ nav ul li:hover{
 
   }
   body{
-    background-color:#ddd;
+    background-color:rgb(255, 255, 255);
     
   }
+  #total{
+    background-color: rgba(253, 250, 250, 0.767);
+    border-radius: 8px;
+    box-sizing: border-box;
+    border: solid rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: 'PT Serif', serif;
+    margin-left: 25px;
+    margin-top: 10px;
+    width: 90px;
+    text-align: center;
+    display: inline-table;
+    color: #ddd;
+  }
+  #butt{
+    text-align: center;
+  }
+ /* .info{
+    padding: 5px 5px;
+  } */
+  .Img1{
+    background-color: rgba(253, 250, 250, 0.767);
+    border-radius: 8px;
+    box-sizing: border-box;
+    border: solid rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: 'PT Serif', serif;
+    margin-left: 25px;
+    margin-top: 5px;
+    width: 150px;
+    text-align: center;
+    display: inline-table;
+    color: rgb(12, 11, 11);
+   
+  }
+.choosecolor{
+  padding: 12px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ margin-left: 320px;
+  
+  border-radius: 3%;
+  /* border: 2px solid grey; */
+  box-shadow: 2px 3px 8px grey;
+    background-color: rgba(63, 63, 51, 0.815); 
+    height: 100px;
+    width: 150px;
+    text-align: center;
+}
+#chooseTint{
+  background-color: rgba(253, 250, 250, 0.767);
+    border-radius: 8px;
+    box-sizing: border-box;
+    border: solid rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: 'PT Serif', serif;
+    margin-left: 1px;
+    margin-top: 5px;
+    width: 100px;
+    text-align: center;
+    display: inline-table;
+    color: rgb(12, 11, 11);
+    
+}
   
   

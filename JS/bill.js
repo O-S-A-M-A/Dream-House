@@ -56,5 +56,5 @@ tr1.appendChild(td3);
 
 var td2 = document.createElement('td');
 tr1.appendChild(td2);
-td2.textContent = `${total.toFixed(2)}`;
+td2.textContent = `${total}`;
 console.log(total);
