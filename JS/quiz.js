@@ -12,66 +12,51 @@ var zen = ['false', 'false', 'false'];
 
 
 var styles = [];
-//contractor__________________________________________
-// function Style(formal1, Ornamentation, colorful) {
-//   this.formal1 = formal1;
-//   this.Ornamentation = Ornamentation;
-//   this.colorful = colorful;
-//   styles.push(this);
-// }
 
-// Style.prototype.render = function () {
-  function render(){
+
+
   var container = document.getElementById("output");
-  // create and append article to the container
-  if(yourStyle$.toString()==artDeco.toString()){
   var pl = document.createElement("p");
   container.appendChild(pl);
+  var img1 = document.getElementById("outputimage");
+
+function render(){
+ 
+  
+  if(yourStyle$.toString()==artDeco.toString()){
   pl.textContent = 'your style is artdeco';
+  img1.setAttribute("src",'modern-home-design-decoration.jpg');
 }
 else if(yourStyle$.toString()==classic.toString()){
-  var pl = document.createElement("p");
-  container.appendChild(pl);
   pl.textContent = 'your style is classic';
+  img1.setAttribute("src",'modern-home-design-decoration.jpg');
 }
 else if(yourStyle$.toString()==contemporary.toString()){
-  var pl = document.createElement("p");
-  container.appendChild(pl);
   pl.textContent = 'your style is contemporary';
+  img1.setAttribute("src",'modern-home-design-decoration.jpg');
 }
 else if(yourStyle$.toString()==industrial.toString()){
-  var pl = document.createElement("p");
-  container.appendChild(pl);
   pl.textContent = 'your style is industrial';
+  img1.setAttribute("src",'modern-home-design-decoration.jpg');
 }
 else if(yourStyle$.toString()==boho.toString()){
-  var pl = document.createElement("p");
-  container.appendChild(pl);
   pl.textContent = 'your style is boho';
+  img1.setAttribute("src",'modern-home-design-decoration.jpg');
 }
 else if(yourStyle$.toString()==scandinavian.toString()){
-  var pl = document.createElement("p");
-  container.appendChild(pl);
   pl.textContent = 'your style is scandinavian';
+  img1.setAttribute("src",'modern-home-design-decoration.jpg');
 }
 else if(yourStyle$.toString()==costal.toString()){
-  var pl = document.createElement("p");
-  container.appendChild(pl);
   pl.textContent = 'your style is costal';
+  img1.setAttribute("src",'modern-home-design-decoration.jpg');
 }
 else if(yourStyle$.toString()==zen.toString()){
-  var pl = document.createElement("p");
-  container.appendChild(pl);
   pl.textContent = 'your style is zen';
+  img1.setAttribute("src",'modern-home-design-decoration.jpg');
 }
 
 
-
-
-  // create image and set the src  attribute _____________
-  // var imgEl = document.createElement("img");
-  // imgEl.setAttribute("src", this.imagePath);
-  // container.appendChild(imgEl);
 
 };
 
@@ -93,10 +78,7 @@ myForm.addEventListener('submit', function (event) {
   yourStyle$=[formal$,ornamentation$,colorful$];
   console.log('hhhhhhhhh',yourStyle$);
 
-  // var yourStyle = new Style(formal$, ornamentation$, colorful$);
   
-
-  // yourStyle.render();
  render();
   myForm.reset();
   
