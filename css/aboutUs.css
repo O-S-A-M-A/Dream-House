@@ -1,0 +1,102 @@
+.logo{
+    width: 20%;
+  }
+  
+  .logo img{
+    width: 70px;
+    margin:5px 20px 20px 5px;
+    float: left;
+  }
+  nav{
+  width: 80%;
+  float: right;
+}
+nav ul{
+  margin:10px 20px 20px;
+  font-size: 22px;
+  
+}
+nav ul li {
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+  left:490px;
+  top: 25px;
+  color: white;
+ 
+}
+nav ul li:hover{
+  color: rgba(255, 191, 14, 0.918);
+  border-bottom: 1px solid white;
+}
+nav ul li a{
+  color: rgb(253, 253, 253);
+  text-decoration: none;
+}
+nav button a {
+  color: rgb(29, 28, 28);
+  text-decoration: none;
+}
+  
+  nav ul .menu .subMenu {
+      padding: 5px;
+      color: rgba(223, 222, 222, 0.918);
+      display: none;
+  
+  }
+  nav ul .menu:hover .subMenu{
+      color: rgba(250, 244, 244, 0.918);
+      border-bottom: 1px solid;
+      display: block;
+    }
+  
+  nav ul .menu .subMenu li {
+      padding: 5px;
+      color: rgba(95, 87, 87, 0.918);
+  }
+  #copyright{
+    background-color: rgb(17, 17, 17);
+    padding: 10px 0;
+    color: rgb(243, 241, 241);
+    text-align: center;
+  }
+  header{
+    min-height: 100px;
+    background-color: rgba(10, 10, 10, 0.87);
+    overflow: hidden;
+    position: relative;
+    z-index: 3;
+    padding-bottom: 1px;
+    
+  }
+
+  *{
+    font-family: 'Poppins', sans-serif;
+  }
+  .imgContainer{
+      display: block;
+      margin-top: 20px;
+
+  
+      
+  }
+  .info{
+    padding: 12px;
+    margin: 15px;
+    border-radius: 3%;
+    /* border: 2px solid grey; */
+    box-shadow: 2px 3px 8px grey;
+      background-color: rgba(82, 82, 80, 0.616); 
+      height: 320px;
+      width: 200px;
+  }
+  #ourproject{
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+  }
+  #obada{
+      margin-right:30%;
+  display: inline-block;
+  }
+  
