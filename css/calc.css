@@ -35,7 +35,7 @@ header{
 
 .logo img{
   width: 70px;
-  margin:5px 40px 20px 5px;
+  margin:5px 30px 20px 5px;
   float: left;
   position: relative;
   left:20px;
@@ -47,7 +47,7 @@ nav{
   margin-right: 50px;
 }
 nav ul{
-  margin:10px 10px 20px;
+  margin:0px;
   font-size: 22px;
   font-family:'Barlow Condensed', sans-serif;
   
@@ -212,7 +212,7 @@ border-radius: 10px;
   border-radius:10px;
   float: left;
   font-family:'Barlow Condensed', sans-serif;
-  margin-left: 255px;
+  margin-left: 245px;
   margin-top: 20px;
   
   /* background-color: rgb(223, 221, 221);
