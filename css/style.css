@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Bubbler+One|Bungee+Outline|Geostar|Jacques+Francois+Shadow|Kumar+One+Outline|Libre+Caslon+Display|Londrina+Sketch|Monoton|Montserrat+Subrayada|Rhodium+Libre|Saira+Stencil+One&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Barlow+Condensed|Cagliostro|Gotu|Monoton&display=swap");
-
 @import url('https://fonts.googleapis.com/css?family=Roboto:700');
 
 body{
@@ -43,7 +42,7 @@ nav{
   float: right;
 }
 nav ul{
-  margin:15px 50px 0 450px;
+  margin:15px 50px 0 400px;
   font-size: 22px;
   
 }
