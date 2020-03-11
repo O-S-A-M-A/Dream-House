@@ -24,36 +24,36 @@ function render(){
  
   
   if(yourStyle$.toString()==artDeco.toString()){
-  pl.textContent = 'your style is artdeco';
-  img1.setAttribute("src",'modern-home-design-decoration.jpg');
+  pl.textContent = 'your style is Art-Deco,in our store you will find a lot of colors and products which suit this style';
+  img1.setAttribute("src",'img/artdeco.jpg');
 }
 else if(yourStyle$.toString()==classic.toString()){
-  pl.textContent = 'your style is classic';
-  img1.setAttribute("src",'modern-home-design-decoration.jpg');
+  pl.textContent = 'your style is Classic,in our store you will find a lot of colors and products which suit this style';
+  img1.setAttribute("src",'img/Classic.jpg');
 }
 else if(yourStyle$.toString()==contemporary.toString()){
-  pl.textContent = 'your style is contemporary';
-  img1.setAttribute("src",'modern-home-design-decoration.jpg');
+  pl.textContent = 'your style is Contemporary,in our store you will find a lot of colors and products which suit this style';
+  img1.setAttribute("src",'img/Contemporary.jpg');
 }
 else if(yourStyle$.toString()==industrial.toString()){
-  pl.textContent = 'your style is industrial';
-  img1.setAttribute("src",'modern-home-design-decoration.jpg');
+  pl.textContent = 'your style is Industrial,,in our store you will find a lot of colors and products which suit this style';
+  img1.setAttribute("src",'img/industrial.jpg');
 }
 else if(yourStyle$.toString()==boho.toString()){
-  pl.textContent = 'your style is boho';
-  img1.setAttribute("src",'modern-home-design-decoration.jpg');
+  pl.textContent = 'your style is BOHEMIAN,in our store you will find a lot of colors and products which suit this style';
+  img1.setAttribute("src",'img/boho.png');
 }
 else if(yourStyle$.toString()==scandinavian.toString()){
-  pl.textContent = 'your style is scandinavian';
-  img1.setAttribute("src",'modern-home-design-decoration.jpg');
+  pl.textContent = 'your style is Scandinavian,in our store you will find a lot of colors and products which suit this style';
+  img1.setAttribute("src",'img/Skandinavisches.jpg');
 }
 else if(yourStyle$.toString()==costal.toString()){
-  pl.textContent = 'your style is costal';
-  img1.setAttribute("src",'modern-home-design-decoration.jpg');
+  pl.textContent = 'your style is Costal,in our store you will find a lot of colors and products which suit this style';
+  img1.setAttribute("src",'img/costal.jpg');
 }
 else if(yourStyle$.toString()==zen.toString()){
-  pl.textContent = 'your style is zen';
-  img1.setAttribute("src",'modern-home-design-decoration.jpg');
+  pl.textContent = 'your style is Zen,in our store you will find a lot of colors and products which suit this style';
+  img1.setAttribute("src",'img/zen.jpg');
 }
 
 

@@ -51,9 +51,10 @@ nav ul li {
   display: inline-block;
   padding: 10px;
   position: relative;
-  left:550px;
+  left:530px;
   top: 25px;
   color: white;
+  font-family:'Barlow Condensed', sans-serif;
  
 }
 nav ul li:hover{
@@ -113,15 +114,18 @@ a{
     width: 50%;
     padding: 10px;
     border-radius:15px;
+    font-family:'Barlow Condensed', sans-serif;
   }
   #formalll{
     display: inline;
     float: left;
+    font-family:'Barlow Condensed', sans-serif;
   
   }
   #cozy{
     display: inline;
     float: left;
+    font-family:'Barlow Condensed', sans-serif;
   }
 
   #q2box{
@@ -130,6 +134,7 @@ a{
     width: 50%;
     padding: 10px;
     border-radius:15px;
+    font-family:'Barlow Condensed', sans-serif;
   }
   #q3box{
     margin: 0px auto;
@@ -137,17 +142,26 @@ a{
     width: 50%;
     padding: 10px;
     border-radius:15px;
+    font-family:'Barlow Condensed', sans-serif;
   }
   #btnform{
     display: block;
     margin: 30px auto;
+    font-family:'Barlow Condensed', sans-serif;
     
   }
   #output{
     display: block;
     width: 70%;
     margin: 20px auto;
-    background-color: rgba(110, 112, 112, 0.829);
+    background-color: rgba(57, 58, 58, 0.541);
     text-align: center;
     overflow: hidden;
+    font-family:'Barlow Condensed', sans-serif;
+    padding-bottom:30px;
+    padding-top:20px;
+    font-size:20px;
+  }
+  #outputimage{
+    width:70%;
   }
