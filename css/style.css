@@ -265,10 +265,12 @@ margin:20px 0;
   border-radius:10px;
   float: left;
   font-family:'Barlow Condensed', sans-serif;
+  box-shadow:3px 6px 8px gray;
 }
 #butn1:hover{
   background-color: rgb(88, 85, 85);
   color: black;
+  box-shadow:3px 6px 8px gray;
  
 }
 
@@ -283,10 +285,12 @@ margin:20px 0;
   border:1px solid black;
   border-radius:10px;
   float: left;
+  box-shadow:3px 6px 8px gray;
 }
 #butn2:hover{
   background-color: rgb(88, 85, 85);
   color: black;
+  box-shadow:3px 6px 8px gray;
 }
 #butn3{
   margin:0 5%;
@@ -299,10 +303,12 @@ margin:20px 0;
   border:1px solid black;
   border-radius:10px;
   float: left;
+  box-shadow:3px 6px 8px gray;
 }
 #butn3:hover{
   background-color: rgb(88, 85, 85);
   color: black;
+  box-shadow:3px 6px 8px gray;
  }
 
 
