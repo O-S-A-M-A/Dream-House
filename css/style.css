@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Bubbler+One|Bungee+Outline|Geostar|Jacques+Francois+Shadow|Kumar+One+Outline|Libre+Caslon+Display|Londrina+Sketch|Monoton|Montserrat+Subrayada|Rhodium+Libre|Saira+Stencil+One&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Barlow+Condensed|Cagliostro|Gotu|Monoton&display=swap");
-
 @import url('https://fonts.googleapis.com/css?family=Roboto:700');
 
 body{
@@ -43,7 +42,7 @@ nav{
   float: right;
 }
 nav ul{
-  margin:15px 50px 0 450px;
+  margin:15px 50px 0 400px;
   font-size: 22px;
   
 }
@@ -265,10 +264,12 @@ margin:20px 0;
   border-radius:10px;
   float: left;
   font-family:'Barlow Condensed', sans-serif;
+  box-shadow:3px 6px 8px gray;
 }
 #butn1:hover{
   background-color: rgb(88, 85, 85);
   color: black;
+  box-shadow:3px 6px 8px gray;
  
 }
 
@@ -283,10 +284,12 @@ margin:20px 0;
   border:1px solid black;
   border-radius:10px;
   float: left;
+  box-shadow:3px 6px 8px gray;
 }
 #butn2:hover{
   background-color: rgb(88, 85, 85);
   color: black;
+  box-shadow:3px 6px 8px gray;
 }
 #butn3{
   margin:0 5%;
@@ -299,10 +302,12 @@ margin:20px 0;
   border:1px solid black;
   border-radius:10px;
   float: left;
+  box-shadow:3px 6px 8px gray;
 }
 #butn3:hover{
   background-color: rgb(88, 85, 85);
   color: black;
+  box-shadow:3px 6px 8px gray;
  }
 
 
