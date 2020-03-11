@@ -48,7 +48,7 @@ text-align: center;
   float: right;
 }
 nav ul{
-  margin:10px 20px 20px;
+  margin:10px 10px 10px;
   font-size: 22px;
   
 }
@@ -56,7 +56,7 @@ nav ul li {
   display: inline-block;
   padding: 10px;
   position: relative;
-  left:490px;
+  left:380px;
   top: 25px;
   color: white;
  
@@ -74,7 +74,7 @@ nav button a {
   text-decoration: none;
 }
   
-  nav ul .menu .subMenu {
+  /* nav ul .menu .subMenu {
       padding: 5px;
       color: rgba(223, 222, 222, 0.918);
       display: none;
@@ -89,7 +89,7 @@ nav button a {
   nav ul .menu .subMenu li {
       padding: 5px;
       color: rgba(95, 87, 87, 0.918);
-  }
+  } */
   #copyright{
     background-color: rgb(17, 17, 17);
     padding: 10px 0;
