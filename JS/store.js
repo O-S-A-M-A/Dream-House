@@ -15,6 +15,7 @@ var btn10 = document.getElementById('Img10');
 var btn11 = document.getElementById('Img11');
 var btn12 = document.getElementById('Img12');
 var paragraph = document.getElementById('cartQuantity');
+var paragraph1 = document.getElementById('productListPrint');
 var btn13 = document.getElementById('chooseTint');
 function product(name, quantity, price) {
     this.name = name;
@@ -62,6 +63,10 @@ function productOne(event) {
     var productsItems = JSON.stringify(productArray);
     localStorage.setItem( 'products', productsItems);
 
+    var print= document.createElement('p');
+    paragraph1.appendChild(print);
+    print.textContent = `${quantity} of ${name}`;
+
     document.getElementById('Tiles1Quantity').value = ''
     
 }
@@ -83,6 +88,11 @@ function productTwo(event) {
 
     var productsItems = JSON.stringify(productArray);
     localStorage.setItem( 'products', productsItems);
+
+    var print= document.createElement('p');
+    paragraph1.appendChild(print);
+    print.textContent = `${quantity} of ${name}`;
+
     document.getElementById('Tiles2Quantity').value = ''
 
 }
@@ -103,6 +113,11 @@ function productThree(event) {
 
     var productsItems = JSON.stringify(productArray);
     localStorage.setItem( 'products', productsItems);
+
+    var print= document.createElement('p');
+    paragraph1.appendChild(print);
+    print.textContent = `${quantity} of ${name}`;
+
     document.getElementById('Tiles3Quantity').value = ''
 }
     else
@@ -124,6 +139,11 @@ function productFour(event) {
 
     var productsItems = JSON.stringify(productArray);
     localStorage.setItem( 'products', productsItems);
+
+    var print= document.createElement('p');
+    paragraph1.appendChild(print);
+    print.textContent = `${quantity} of ${name}`;
+
     document.getElementById('tap1Quantity').value = ''
 }
     else
@@ -143,6 +163,11 @@ function productFive(event) {
 
     var productsItems = JSON.stringify(productArray);
     localStorage.setItem( 'products', productsItems);
+
+    var print= document.createElement('p');
+    paragraph1.appendChild(print);
+    print.textContent = `${quantity} of ${name}`;
+
     document.getElementById('tap2Quantity').value = ''
 }
     else
@@ -162,6 +187,11 @@ function productSix(event) {
 
     var productsItems = JSON.stringify(productArray);
     localStorage.setItem( 'products', productsItems);
+
+    var print= document.createElement('p');
+    paragraph1.appendChild(print);
+    print.textContent = `${quantity} of ${name}`;
+
     document.getElementById('tap3Quantity').value = ''
 }
     else
@@ -185,6 +215,11 @@ function productSeven(event) {
 
     var productsItems = JSON.stringify(productArray);
     localStorage.setItem( 'products', productsItems);
+
+    var print= document.createElement('p');
+    paragraph1.appendChild(print);
+    print.textContent = `${quantity} of ${name}`;
+
     document.getElementById('shower1Quantity').value = ''
 }
     else
@@ -204,6 +239,11 @@ function productEight(event) {
 
     var productsItems = JSON.stringify(productArray);
     localStorage.setItem( 'products', productsItems);
+
+    var print= document.createElement('p');
+    paragraph1.appendChild(print);
+    print.textContent = `${quantity} of ${name}`;
+
     document.getElementById('shower2Quantity').value = ''
 
 }
@@ -224,6 +264,11 @@ function productNine(event) {
 
     var productsItems = JSON.stringify(productArray);
     localStorage.setItem( 'products', productsItems);
+
+    var print= document.createElement('p');
+    paragraph1.appendChild(print);
+    print.textContent = `${quantity} of ${name}`;
+
     document.getElementById('shower3Quantity').value = ''
 
 }
@@ -245,6 +290,11 @@ function productTen(event) {
 
     var productsItems = JSON.stringify(productArray);
     localStorage.setItem( 'products', productsItems);
+
+    var print= document.createElement('p');
+    paragraph1.appendChild(print);
+    print.textContent = `${quantity} of ${name}`;
+
     document.getElementById('paint1Quantity').value = ''
 
 }
@@ -265,6 +315,11 @@ function productEleven(event) {
 
     var productsItems = JSON.stringify(productArray);
     localStorage.setItem( 'products', productsItems);
+
+    var print= document.createElement('p');
+    paragraph1.appendChild(print);
+    print.textContent = `${quantity} of ${name}`;
+
     document.getElementById('paint2Quantity').value = ''
 
 }
@@ -285,6 +340,11 @@ function productTwelve(event) {
 
     var productsItems = JSON.stringify(productArray);
     localStorage.setItem( 'products', productsItems);
+
+    var print= document.createElement('p');
+    paragraph1.appendChild(print);
+    print.textContent = `${quantity} of ${name}`;
+    
     document.getElementById('paint3Quantity').value = ''
 
 }
