@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Bubbler+One|Bungee+Outline|Geostar|Jacques+Francois+Shadow|Kumar+One+Outline|Libre+Caslon+Display|Londrina+Sketch|Monoton|Montserrat+Subrayada|Rhodium+Libre|Saira+Stencil+One&display=swap");
 @import url("https://fonts.googleapis.com/css?family=PT+Serif&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Monoton|PT+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Barlow+Condensed|Cagliostro|Gotu|Monoton&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
 body{
   background-color:#ddd;
 }
@@ -87,23 +89,23 @@ border-radius: 50px;
 box-sizing: border-box;
 }
 #lable1{
-  margin-right: 55px;
+  margin-right: 59px;
   font-family:'Barlow Condensed', sans-serif;
 }
 #lable2{
-  margin-right: 60px;
+  margin-right: 65px;
   font-family:'Barlow Condensed', sans-serif;
 }
 #lable3{
-  margin-right: 55px;
+  margin-right: 56px;
   font-family:'Barlow Condensed', sans-serif;
 }
 #lable4{
-  margin-right: 3px;
+  margin-right: 13px;
   font-family:'Barlow Condensed', sans-serif;
 }
 #lable5{
-    margin-right: 29px;
+    margin-right: 31px;
     font-family:'Barlow Condensed', sans-serif;
 }
 #calculate legend{
@@ -126,7 +128,32 @@ word-spacing:8px;
 .submit-btn{
   text-align: center;
   font-family:'Barlow Condensed', sans-serif;
+  margin-left: 122px;
+  
   }
+
+  #submit-btn{
+    /* margin:0 5%; */
+    background-color: black;
+    color: white;
+    display:block;
+    /* width: 150px;
+    height: 30px; */
+    border:1px solid black;
+    border-radius:10px;
+    /* float: right; */
+    margin:auto auto;
+    font-family:'Barlow Condensed', sans-serif;
+    /* margin-left: 255px; */
+    /* margin-top: 20px; */
+  }
+
+  #submit-btn:hover{
+    background-color: rgb(88, 85, 85);
+ color : black;
+  }
+
+
 #calculate input {
   /* text-align:center; */
   line-height:150%;
@@ -155,11 +182,40 @@ border-radius: 10px;
   padding-bottom:30px; */
   /* min-height: 50px; */
   width: 90%;
-  
-  
+/*   
+  #butn1{
+    margin:0 5%;
+    background-color: black;
+    color: white;
+    display:block;
+    width: 150px;
+    height: 30px;
+    border:1px solid black;
+    border-radius:10px;
+    float: left;
+    font-family:'Barlow Condensed', sans-serif;
+  }
+  #butn1:hover{
+    background-color: rgb(88, 85, 85);
+    color: black;
+   
+  } */
 }
-button{
-  background-color: rgb(223, 221, 221);
+#butn{
+  margin:0 5%;
+  background-color: black;
+  color: white;
+  display:block;
+  width: 150px;
+  height: 30px;
+  border:1px solid black;
+  border-radius:10px;
+  float: left;
+  font-family:'Barlow Condensed', sans-serif;
+  margin-left: 255px;
+  margin-top: 20px;
+  
+  /* background-color: rgb(223, 221, 221);
   border-radius: 8px;
   box-sizing: border-box;
   border: solid rgb(0, 0, 0);
@@ -171,13 +227,17 @@ button{
   text-align: center;
   display: inline-table;
   color: #ddd;
-  box-shadow:2px 2px 5px gray;
-
+  box-shadow:2px 2px 5px gray; */
+  
+}
+#butn:hover{
+ background-color: rgb(88, 85, 85);
+ color : black;
 }
 #storeButton{
   text-decoration: none;
-  color: black;
-  font-family:'Barlow Condensed', sans-serif;
+  /* color: black; */
+  /* font-family:'Barlow Condensed', sans-serif; */
 }
 a{
   text-decoration: none;
