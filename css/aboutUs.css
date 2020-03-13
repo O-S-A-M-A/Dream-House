@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow+Condensed|Cagliostro|Gotu|Monoton&display=swap");
 .logo{
     width: 20%;
   }
@@ -38,22 +39,7 @@ nav button a {
   text-decoration: none;
 }
   
-  nav ul .menu .subMenu {
-      padding: 5px;
-      color: rgba(223, 222, 222, 0.918);
-      display: none;
   
-  }
-  nav ul .menu:hover .subMenu{
-      color: rgba(250, 244, 244, 0.918);
-      border-bottom: 1px solid;
-      display: block;
-    }
-  
-  nav ul .menu .subMenu li {
-      padding: 5px;
-      color: rgba(95, 87, 87, 0.918);
-  }
   #copyright{
     background-color: rgb(17, 17, 17);
     padding: 10px 0;
@@ -73,30 +59,113 @@ nav button a {
   *{
     font-family: 'Poppins', sans-serif;
   }
-  .imgContainer{
-      display: block;
-      margin-top: 20px;
-
   
-      
-  }
   .info{
     padding: 12px;
-    margin: 15px;
+    margin: 15px auto;
     border-radius: 3%;
-    /* border: 2px solid grey; */
     box-shadow: 2px 3px 8px grey;
       background-color: rgba(82, 82, 80, 0.616); 
-      height: 320px;
-      width: 200px;
+      height: 420px;
+      width: 500px;
+      text-align: center;
+      font-size: 30px;
+  }
+ 
+  #title{
+    margin-bottom: 15px;
+    font-family:'Monoton', cursive;
+    word-spacing: 10px;
   }
   #ourproject{
       margin-left: auto;
       margin-right: auto;
-      width: 50%;
+      width: 70%;
+      
   }
-  #obada{
-      margin-right:30%;
-  display: inline-block;
-  }
-  
+.Obadabox{
+  margin-top:30px;
+  float: left;
+  background-color: rgb(73, 73, 73);
+  margin:30px 15px 0 35px;
+  width:300px;
+  text-align: center;
+  border-radius: 3%;
+    box-shadow: 2px 3px 8px grey;
+}
+.Obadabox:hover{
+  transform: scale(1.2);
+}
+.sarabox{
+  margin-top:30px;
+  float: left;
+  background-color: rgb(73, 73, 73);
+ margin:30px 15px 0 35px;
+  width:300px;
+  text-align: center;
+  border-radius: 3%;
+    box-shadow: 2px 3px 8px grey;
+
+}
+.sarabox:hover{
+  transform: scale(1.2);
+}
+#clear{
+  clear: both;
+}
+.maisbox{
+  margin-top:30px;
+  float: left;
+  background-color: rgb(73, 73, 73);
+  margin:30px 15px 0 35px;
+  width:300px;
+  text-align: center;
+  border-radius: 3%;
+    box-shadow: 2px 3px 8px grey;
+
+}
+.maisbox:hover{
+  transform: scale(1.2);
+}
+.ahmadbox{
+  margin-top:30px;
+  float: left;
+  background-color: rgb(73, 73, 73);
+  margin:30px 15px 0 35px;
+  width:300px;
+  text-align: center;
+  border-radius: 3%;
+    box-shadow: 2px 3px 8px grey;
+}
+.ahmadbox:hover{
+  transform: scale(1.2);
+}
+.abdbox{
+  margin-top:30px;
+  float: left;
+  background-color: rgb(73, 73, 73);
+  text-align: center;
+  width:300px;
+  position: relative;
+ left:200px;
+ border-radius: 3%;
+    box-shadow: 2px 3px 8px grey;
+
+}
+.abdbox:hover{
+  transform: scale(1.2);
+}
+
+#allimg{
+  margin:0px auto ;
+  width:700px;
+  height: 1000px;
+  text-align: center;
+ 
+}
+h3{
+  margin-top: 40px;
+  text-align: center;
+  font-size: 30px;
+  font-family:'Monoton', cursive;;
+}
